@@ -29,9 +29,13 @@ options:
   --no-plot             Skip chart generation and send text-only embed.
 
 
-To start the tool via NINA external script command in the Advanced Sequencer best to build a small nightreport.bat as following
+To start the tool in the morning via External script command in the N.I.N.A Advanced Sequencer best to build a small nightreport.bat as following:
+
 @echo off
-Start <path>\NINA-NightReport --webhook https://discord.com/api/webhooks/xxxx
+
+Start 'Your Path'\NINA-NightReport-beta.exe --webhook 'your webhook'
+
+
 
 
 > ⚠️ **Pre-release Notice**
