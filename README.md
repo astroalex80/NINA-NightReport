@@ -6,7 +6,7 @@ Aggregates per-filter imaging stats, and posts a Discord embed (with an optional
 
 **Features**
 - Auto “last night” detection from coordinates (sunset→sunrise via PY Astral).
-- Parses N.I.N.A logs (multi-line safe) and discovers plugin CSVs (Image/Weather/Target).
+- Parses N.I.N.A logs (multi-line safe) and automatically discovers the Session MetaData CSVs (Image/Weather/Target).
 - Per-filter summary: exposure counts & total time; HFR, FWHM, eccentricity, guiding RMS, detected stars; stability indicators.
 - Overhead calculations: autofocus runs (completed/failed + durations), dither runs, filter changes, focuser moves, warnings/errors.
 - Optional PNG chart (HFR vs focuser temp, eccentricity vs guiding RMS, stars/sky quality, sky temperature).
