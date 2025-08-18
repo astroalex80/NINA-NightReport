@@ -8,7 +8,7 @@ Aggregates per-filter imaging stats, and posts a Discord embed (with an optional
 - Auto “last night” detection from coordinates (sunset→sunrise via PY Astral).
 - Parses N.I.N.A logs (multi-line safe) and discovers plugin CSVs (Image/Weather/Target).
 - Per-filter summary: exposure counts & total time; HFR, FWHM, eccentricity, guiding RMS, detected stars; stability indicators.
-- Overheads: autofocus (completed/failed + durations), dithers, filter changes, focuser moves, warnings/errors.
+- Overhead calculations: autofocus runs (completed/failed + durations), dither runs, filter changes, focuser moves, warnings/errors.
 - Optional PNG chart (HFR vs focuser temp, eccentricity vs guiding RMS, stars/sky quality, sky temperature).
 - Discord webhook delivery (image attached if a chart is generated).
 
@@ -22,9 +22,9 @@ options:
                         as the night ending at this date's sunrise. Default: last night.
   
   --coordinates COORDINATES
-                        GPS coordinates as 'lat,lon' (used for dusk/dawn).
+                        GPS coordinates as 'lat,lon' (used for sunset/-rise calculations to strip the NINA log file).
   
-  --webhook WEBHOOK     Discord webhook URL
+  --webhook WEBHOOK     Discord webhook URL (https://discord.com/api/webhooks/xxxxxxxx)
   
   --no-plot             Skip chart generation and send text-only embed.
 
