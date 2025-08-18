@@ -33,7 +33,7 @@ To start the tool in the morning via External script command in the N.I.N.A Adva
 
 @echo off
 
-Start 'Your Path'\NINA-NightReport-beta.exe --webhook 'your webhook'
+Start 'Your Path'\NINA-NightReport-beta.exe --coordinates 'your observatory coordinates' --webhook 'your webhook'
 
 
 
