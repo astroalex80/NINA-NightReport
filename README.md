@@ -5,7 +5,7 @@ NINA-NightReport reads your N.I.N.A logs and Plugin Session Metadata CSVs, compu
 Aggregates per-filter imaging stats, and posts a Discord embed (with an optional PNG chart). It’s designed to be fault-tolerant when for example weather data are absent.
 
 **Features**
-- Auto “last night” detection from coordinates (sunset→sunrise via PY Astral).
+- Auto “last night” detection from coordinates (sunset→sunrise).
 - Parses N.I.N.A logs (multi-line safe) and automatically discovers the Session MetaData CSVs (Image/Weather/Target).
 - Per-filter summary: exposure counts & total time; HFR, FWHM, eccentricity, guiding RMS, detected stars; stability indicators.
 - Overhead calculations: autofocus runs (completed/failed + durations), dither runs, filter changes, focuser moves, warnings/errors.
