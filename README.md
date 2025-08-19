@@ -37,7 +37,7 @@ Start 'Your Path'\NINA-NightReport-beta.exe --coordinates 'your observatory coor
 
 | Screenshot 1 | Screenshot 2 |
 |---|---|
-| ![Screenshot 1](Screenshot_1.png) | ![Screenshot 2](Screenshot_2.png) |
+| ![Screenshot 1](Screenshot-25-07-01.png) | ![Screenshot 2](Screenshot-25-07-02.png) |
 
 > ⚠️ **Pre-release Notice**
 >
