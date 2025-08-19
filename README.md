@@ -1,5 +1,5 @@
 # NINA-NightReport
-Automated N.I.N.A session reporting: parses log files and the CSV metadata of the Session Metadata Plugin by @tcpalmer. The reporting to be send via Discord webhook. Generates optional charts.
+Automated N.I.N.A session reporting: parses log files and the CSV metadata of the Session Metadata Plugin by @tcpalmer. The reporting to be send via Discord webhook. Generates optional charts. See screenshots below.
 
 NINA-NightReport reads your N.I.N.A logs and Plugin Session Metadata CSVs, computes the previous night’s log (sunset to sunrise) or from your selected date (end date of the session must be provided via --date cli command). 
 Aggregates per-filter imaging stats, and posts a Discord embed (with an optional PNG chart). It’s designed to be fault-tolerant when for example weather data are absent.
@@ -35,8 +35,9 @@ To start the tool in the morning via External script command in the N.I.N.A Adva
 
 Start 'Your Path'\NINA-NightReport-beta.exe --coordinates 'your observatory coordinates' --webhook 'your webhook'
 
-
-
+| Screenshot 1 | Screenshot 2 |
+|---|---|
+| ![Screenshot 1](Screenshot_1.png) | ![Screenshot 2](Screenshot_2.png) |
 
 > ⚠️ **Pre-release Notice**
 >
